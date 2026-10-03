@@ -60,6 +60,7 @@ def get_latest_date_in_csv() -> str | None:
 # ─── MAIN ─────────────────────────────────────────────────────────────────────
 
 def fetch_and_append():
+    try:
         import yfinance as yf
     except Exception as e:
         log.error(f"Lỗi import yfinance: {type(e).__name__}: {e}")
@@ -115,6 +116,7 @@ def fetch_and_append():
                 for col in ["open", "high", "low", "close"]:
                     df[col] = (df[col] / 1000).round(2)
                 df["time"] = df["time"].astype(str).str[:10]
+                
                 df_filtered = df[
                     (df["time"] >= start_str) & (df["time"] <= end_str)
                 ]
