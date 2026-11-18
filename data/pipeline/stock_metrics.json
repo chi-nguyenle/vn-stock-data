@@ -1,126 +1,137 @@
 {
- "date": "2026-10-02",
+ "data_date": "2026-11-16",
+ "window": [
+  "2026-10-06",
+  "2026-11-16"
+ ],
+ "missing": [],
+ "price_adjustments": [
+  [
+   "TCB",
+   "2026-10-28",
+   1.502
+  ]
+ ],
  "metrics": {
-  "VCB": {
-   "ret30": -3.55,
-   "vol": 1.01,
+  "MBB": {
+   "ret30": -1.04,
+   "vol": 1.21,
+   "slope_pct_day": -0.02,
    "trend": "Sideway",
-   "slope_pct_per_day": -0.118,
-   "vol_trend": -16.8,
-   "score": 24.0,
-   "days": 30,
-   "last_close": 57.1,
+   "vol_ratio": 0.72,
+   "close": 19.0,
+   "sessions": 30,
+   "score": 1.8,
    "rank": 1,
-   "rec": "Nên xem xét"
-  },
-  "VIC": {
-   "ret30": 4.43,
-   "vol": 2.31,
-   "trend": "Sideway",
-   "slope_pct_per_day": -0.055,
-   "vol_trend": -51.1,
-   "score": 19.0,
-   "days": 30,
-   "last_close": 224.0,
-   "rank": 4,
-   "rec": "Theo dõi thêm"
-  },
-  "VHM": {
-   "ret30": -7.49,
-   "vol": 1.78,
-   "trend": "Giảm",
-   "slope_pct_per_day": -0.332,
-   "vol_trend": 16.3,
-   "score": 9.0,
-   "days": 30,
-   "last_close": 67.9,
-   "rank": 9,
-   "rec": "Tránh / chờ"
+   "group": "✅ Nên xem xét"
   },
   "HPG": {
-   "ret30": -9.89,
-   "vol": 1.2,
-   "trend": "Giảm",
-   "slope_pct_per_day": -0.346,
-   "vol_trend": 17.6,
-   "score": 8.0,
-   "days": 30,
-   "last_close": 20.05,
-   "rank": 10,
-   "rec": "Tránh / chờ"
+   "ret30": 2.68,
+   "vol": 1.63,
+   "slope_pct_day": 0.143,
+   "trend": "Sideway",
+   "vol_ratio": 0.82,
+   "close": 21.05,
+   "sessions": 30,
+   "score": 2.2,
+   "rank": 2,
+   "group": "✅ Nên xem xét"
+  },
+  "VIC": {
+   "ret30": 6.9,
+   "vol": 2.19,
+   "slope_pct_day": 0.38,
+   "trend": "Tăng",
+   "vol_ratio": 0.73,
+   "close": 248.0,
+   "sessions": 30,
+   "score": 2.4,
+   "rank": 3,
+   "group": "✅ Nên xem xét"
   },
   "TCB": {
-   "ret30": 2.54,
-   "vol": 2.07,
+   "ret30": -1.38,
+   "vol": 1.31,
+   "slope_pct_day": -0.023,
    "trend": "Sideway",
-   "slope_pct_per_day": -0.007,
-   "vol_trend": 21.7,
-   "score": 21.0,
-   "days": 30,
-   "last_close": 32.25,
-   "rank": 3,
-   "rec": "Nên xem xét"
-  },
-  "MBB": {
-   "ret30": -7.95,
-   "vol": 1.18,
-   "trend": "Giảm",
-   "slope_pct_per_day": -0.264,
-   "vol_trend": -9.1,
-   "score": 13.0,
-   "days": 30,
-   "last_close": 19.1,
-   "rank": 8,
-   "rec": "Tránh / chờ"
-  },
-  "VNM": {
-   "ret30": -9.34,
-   "vol": 1.16,
-   "trend": "Giảm",
-   "slope_pct_per_day": -0.216,
-   "vol_trend": -0.0,
-   "score": 14.0,
-   "days": 30,
-   "last_close": 57.3,
-   "rank": 7,
-   "rec": "Theo dõi thêm"
-  },
-  "FPT": {
-   "ret30": -4.33,
-   "vol": 1.39,
-   "trend": "Sideway",
-   "slope_pct_per_day": -0.126,
-   "vol_trend": -25.6,
-   "score": 16.0,
-   "days": 30,
-   "last_close": 62.1,
-   "rank": 6,
-   "rec": "Theo dõi thêm"
+   "vol_ratio": 0.59,
+   "close": 21.3,
+   "sessions": 30,
+   "score": 3.1,
+   "rank": 4,
+   "group": "⚠️ Theo dõi thêm"
   },
   "MSN": {
-   "ret30": 1.0,
-   "vol": 1.31,
+   "ret30": -0.69,
+   "vol": 1.84,
+   "slope_pct_day": -0.095,
    "trend": "Sideway",
-   "slope_pct_per_day": -0.008,
-   "vol_trend": 41.0,
-   "score": 22.0,
-   "days": 30,
-   "last_close": 70.7,
-   "rank": 2,
-   "rec": "Nên xem xét"
+   "vol_ratio": 0.67,
+   "close": 71.5,
+   "sessions": 30,
+   "score": 3.8,
+   "rank": 5,
+   "group": "⚠️ Theo dõi thêm"
+  },
+  "VCB": {
+   "ret30": -7.16,
+   "vol": 1.32,
+   "slope_pct_day": -0.24,
+   "trend": "Giảm",
+   "vol_ratio": 0.86,
+   "close": 53.2,
+   "sessions": 30,
+   "score": 5.0,
+   "rank": 6,
+   "group": "⚠️ Theo dõi thêm"
+  },
+  "VNM": {
+   "ret30": -8.22,
+   "vol": 1.43,
+   "slope_pct_day": -0.193,
+   "trend": "Giảm",
+   "vol_ratio": 1.22,
+   "close": 53.6,
+   "sessions": 30,
+   "score": 5.4,
+   "rank": 7,
+   "group": "⚠️ Theo dõi thêm"
   },
   "BID": {
-   "ret30": -5.69,
-   "vol": 1.11,
-   "trend": "Sideway",
-   "slope_pct_per_day": -0.131,
-   "vol_trend": -0.7,
-   "score": 19.0,
-   "days": 30,
-   "last_close": 34.8,
-   "rank": 5,
-   "rec": "Theo dõi thêm"
+   "ret30": -8.53,
+   "vol": 1.29,
+   "slope_pct_day": -0.262,
+   "trend": "Giảm",
+   "vol_ratio": 0.91,
+   "close": 31.65,
+   "sessions": 30,
+   "score": 5.5,
+   "rank": 8,
+   "group": "❌ Tránh / chờ"
+  },
+  "VHM": {
+   "ret30": -9.42,
+   "vol": 2.59,
+   "slope_pct_day": -0.164,
+   "trend": "Giảm",
+   "vol_ratio": 0.6,
+   "close": 62.5,
+   "sessions": 30,
+   "score": 7.4,
+   "rank": 9,
+   "group": "❌ Tránh / chờ"
+  },
+  "FPT": {
+   "ret30": -18.21,
+   "vol": 2.13,
+   "slope_pct_day": -0.678,
+   "trend": "Giảm",
+   "vol_ratio": 1.16,
+   "close": 49.4,
+   "sessions": 30,
+   "score": 8.4,
+   "rank": 10,
+   "group": "❌ Tránh / chờ"
   }
- },
- "missing": []
+ }
 }
