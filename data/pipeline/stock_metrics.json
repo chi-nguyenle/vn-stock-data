@@ -1,126 +1,115 @@
 {
- "date": "2026-10-02",
+ "as_of": "2026-11-17",
+ "window_days": 30,
+ "missing": [],
+ "price_adjusted": {
+  "TCB": [
+   [
+    "2026-10-28",
+    -33.4
+   ]
+  ]
+ },
  "metrics": {
-  "VCB": {
-   "ret30": -3.55,
-   "vol": 1.01,
+  "MBB": {
+   "ret30": -0.79,
+   "vol": 1.21,
+   "slope_pct_day": -0.041,
    "trend": "Sideway",
-   "slope_pct_per_day": -0.118,
-   "vol_trend": -16.8,
-   "score": 24.0,
-   "days": 30,
-   "last_close": 57.1,
-   "rank": 1,
-   "rec": "Nên xem xét"
-  },
-  "VIC": {
-   "ret30": 4.43,
-   "vol": 2.31,
-   "trend": "Sideway",
-   "slope_pct_per_day": -0.055,
-   "vol_trend": -51.1,
-   "score": 19.0,
-   "days": 30,
-   "last_close": 224.0,
-   "rank": 4,
-   "rec": "Theo dõi thêm"
-  },
-  "VHM": {
-   "ret30": -7.49,
-   "vol": 1.78,
-   "trend": "Giảm",
-   "slope_pct_per_day": -0.332,
-   "vol_trend": 16.3,
-   "score": 9.0,
-   "days": 30,
-   "last_close": 67.9,
-   "rank": 9,
-   "rec": "Tránh / chờ"
+   "vol7_vs_avg": -27.8,
+   "close": 18.95,
+   "score": 1.4,
+   "rec": "✅ Nên xem xét"
   },
   "HPG": {
-   "ret30": -9.89,
-   "vol": 1.2,
-   "trend": "Giảm",
-   "slope_pct_per_day": -0.346,
-   "vol_trend": 17.6,
-   "score": 8.0,
-   "days": 30,
-   "last_close": 20.05,
-   "rank": 10,
-   "rec": "Tránh / chờ"
+   "ret30": 3.19,
+   "vol": 1.62,
+   "slope_pct_day": 0.132,
+   "trend": "Tăng",
+   "vol7_vs_avg": -25.1,
+   "close": 21.0,
+   "score": 2.2,
+   "rec": "✅ Nên xem xét"
+  },
+  "VIC": {
+   "ret30": 7.83,
+   "vol": 2.18,
+   "slope_pct_day": 0.424,
+   "trend": "Tăng",
+   "vol7_vs_avg": -24.8,
+   "close": 248.0,
+   "score": 2.4,
+   "rec": "✅ Nên xem xét"
   },
   "TCB": {
-   "ret30": 2.54,
-   "vol": 2.07,
+   "ret30": -1.62,
+   "vol": 1.31,
+   "slope_pct_day": -0.057,
    "trend": "Sideway",
-   "slope_pct_per_day": -0.007,
-   "vol_trend": 21.7,
-   "score": 21.0,
-   "days": 30,
-   "last_close": 32.25,
-   "rank": 3,
-   "rec": "Nên xem xét"
-  },
-  "MBB": {
-   "ret30": -7.95,
-   "vol": 1.18,
-   "trend": "Giảm",
-   "slope_pct_per_day": -0.264,
-   "vol_trend": -9.1,
-   "score": 13.0,
-   "days": 30,
-   "last_close": 19.1,
-   "rank": 8,
-   "rec": "Tránh / chờ"
-  },
-  "VNM": {
-   "ret30": -9.34,
-   "vol": 1.16,
-   "trend": "Giảm",
-   "slope_pct_per_day": -0.216,
-   "vol_trend": -0.0,
-   "score": 14.0,
-   "days": 30,
-   "last_close": 57.3,
-   "rank": 7,
-   "rec": "Theo dõi thêm"
-  },
-  "FPT": {
-   "ret30": -4.33,
-   "vol": 1.39,
-   "trend": "Sideway",
-   "slope_pct_per_day": -0.126,
-   "vol_trend": -25.6,
-   "score": 16.0,
-   "days": 30,
-   "last_close": 62.1,
-   "rank": 6,
-   "rec": "Theo dõi thêm"
+   "vol7_vs_avg": -41.7,
+   "close": 21.15,
+   "score": 2.4,
+   "rec": "⚠️ Theo dõi thêm"
   },
   "MSN": {
-   "ret30": 1.0,
-   "vol": 1.31,
-   "trend": "Sideway",
-   "slope_pct_per_day": -0.008,
-   "vol_trend": 41.0,
-   "score": 22.0,
-   "days": 30,
-   "last_close": 70.7,
-   "rank": 2,
-   "rec": "Nên xem xét"
+   "ret30": -4.65,
+   "vol": 1.63,
+   "slope_pct_day": -0.104,
+   "trend": "Giảm",
+   "vol7_vs_avg": -40.2,
+   "close": 71.7,
+   "score": 4.6,
+   "rec": "⚠️ Theo dõi thêm"
+  },
+  "VNM": {
+   "ret30": -8.28,
+   "vol": 1.43,
+   "slope_pct_day": -0.223,
+   "trend": "Giảm",
+   "vol7_vs_avg": 18.5,
+   "close": 53.2,
+   "score": 5.0,
+   "rec": "⚠️ Theo dõi thêm"
+  },
+  "VCB": {
+   "ret30": -8.92,
+   "vol": 1.36,
+   "slope_pct_day": -0.26,
+   "trend": "Giảm",
+   "vol7_vs_avg": -9.6,
+   "close": 52.1,
+   "score": 5.4,
+   "rec": "⚠️ Theo dõi thêm"
   },
   "BID": {
-   "ret30": -5.69,
-   "vol": 1.11,
-   "trend": "Sideway",
-   "slope_pct_per_day": -0.131,
-   "vol_trend": -0.7,
-   "score": 19.0,
-   "days": 30,
-   "last_close": 34.8,
-   "rank": 5,
-   "rec": "Theo dõi thêm"
+   "ret30": -10.14,
+   "vol": 1.33,
+   "slope_pct_day": -0.275,
+   "trend": "Giảm",
+   "vol7_vs_avg": -5.1,
+   "close": 31.0,
+   "score": 6.2,
+   "rec": "❌ Tránh / chờ"
+  },
+  "VHM": {
+   "ret30": -9.12,
+   "vol": 2.58,
+   "slope_pct_day": -0.109,
+   "trend": "Giảm",
+   "vol7_vs_avg": -43.9,
+   "close": 61.8,
+   "score": 7.0,
+   "rec": "❌ Tránh / chờ"
+  },
+  "FPT": {
+   "ret30": -18.76,
+   "vol": 2.14,
+   "slope_pct_day": -0.685,
+   "trend": "Giảm",
+   "vol7_vs_avg": 12.9,
+   "close": 48.5,
+   "score": 8.4,
+   "rec": "❌ Tránh / chờ"
   }
- },
- "missing": []
+ }
 }
